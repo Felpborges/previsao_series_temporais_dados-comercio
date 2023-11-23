@@ -6,7 +6,7 @@
 
 Este repositório documenta um projeto detalhado de análise de séries temporais, onde foi aplicado métodos estatísticos avançados para prever o volume de comércio no Brasil. Foquei em técnicas de decomposição de séries temporais e na utilização do modelo SARIMA (Seasonal AutoRegressive Integrated Moving Average), reconhecido por sua eficácia em modelar dados com padrões de sazonalidade, tendência e outros comportamentos não-estacionários.
 
-![previsao_sarima](image/sarima_gráfico_previsao.png)
+![previsao_sarima](images/sarima_gráfico_previsao.png)
 
 [Link original para o dataset](https://www.ibge.gov.br/estatisticas/economicas/comercio/9227-pesquisa-mensal-de-comercio.html)
 
