@@ -8,7 +8,7 @@ Este repositório documenta um projeto detalhado de análise de séries temporai
 
 ![previsao_sarima](Images/grafico_imagem_walk_forward.png)
 
-[Link original para o dataset](https://www.ibge.gov.br/estatisticas/economicas/comercio/9227-pesquisa-mensal-de-comercio.html)
+[Link original para o dataset - IBGE](https://www.ibge.gov.br/estatisticas/economicas/comercio/9227-pesquisa-mensal-de-comercio.html?=&t=series-historicas)
 
 <p align="center"> 
   <a href="https://www.linkedin.com/in/felipe-borges-45400415b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
