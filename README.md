@@ -2,11 +2,11 @@
 [![](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 
 
-# Previsão do Volume de Comércio no Brasil Usando Modelo SARIMA
+# Previsão do Volume de Vendas no Comércio Varejista no Brasil Usando Modelo SARIMA
 
-Este repositório documenta um projeto detalhado de análise de séries temporais, onde foi aplicado métodos estatísticos avançados para prever o volume de comércio no Brasil. Foquei em técnicas de decomposição de séries temporais e na utilização do modelo SARIMA (Seasonal AutoRegressive Integrated Moving Average), reconhecido por sua eficácia em modelar dados com padrões de sazonalidade, tendência e outros comportamentos não-estacionários.
+Este repositório documenta um projeto detalhado de análise de séries temporais, onde foi aplicado métodos estatísticos avançados para prever o volume do comércio varejista no Brasil. Foquei em técnicas de decomposição e diferenciação de séries temporais e na utilização do modelo SARIMA (Seasonal AutoRegressive Integrated Moving Average), reconhecido por sua eficácia em modelar dados com padrões de sazonalidade, tendência e outros comportamentos não-estacionários.
 
-![previsao_sarima](images/sarima_gráfico_previsao.png)
+![previsao_sarima](Images/grafico_imagem_walk_forward.png)
 
 [Link original para o dataset](https://www.ibge.gov.br/estatisticas/economicas/comercio/9227-pesquisa-mensal-de-comercio.html)
 
@@ -14,10 +14,14 @@ Este repositório documenta um projeto detalhado de análise de séries temporai
   <a href="https://www.linkedin.com/in/felipe-borges-45400415b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </p>
 
-## Objetivos 
+## Desafio Principal
+Uma questão crítica deste projeto é a capacidade de adaptar o modelo para acomodar as mudanças drásticas nos padrões de dados decorrentes da pandemia de COVID-19 e os subsequentes períodos de lockdown. Essas mudanças representam um desafio único, pois alteraram significativamente os padrões de consumo e comportamento comercial, exigindo uma abordagem mais sofisticada e adaptativa de modelagem estatística.
 
-O objetivo desse projeto é testar novas técnicas de previsão, aplicando conceitos estatísticos, para realizar previsões do índice PMC - Pesquisa Mensal do Comércio.  
-O projeto pode ser resplicado para prever valores futuros do índice.
+## Objetivos 
+O foco principal deste projeto é explorar e implementar técnicas de previsão inovadoras, fundamentadas em sólidos conceitos estatísticos, para realizar previsões confiáveis e precisas do Volume de vendas no comércio varejista. Este é um importante indicador da saúde econômica e comercial do país, e a sua previsão precisa é vital para planejamento e tomada de decisões estratégicas.
+
+## Relevância e Aplicabilidade 
+Além de fornecer insights sobre o Volume de vendas no comércio varejista, este projeto serve como um estudo de caso para a aplicação de previsões estatísticas em situações de mercado altamente voláteis e imprevisíveis. O sucesso deste projeto será medido não apenas pela precisão das previsões, mas também pela sua capacidade de incorporar e responder a mudanças repentinas no mercado.
 
 ## Visão Geral do Projeto
 
@@ -41,9 +45,8 @@ Foi avaliado o desempenho do modelo SARIMA utilizando métricas relevantes. Esta
 ### Visualização das Previsões  
 Foi apresentado as previsões do modelo de forma visual, colocando-as ao lado dos dados históricos. Isso oferece uma perspectiva intuitiva e clara do desempenho do modelo.
 
-### Conclusões:   
+### Conclusões   
 Finalizamos com uma discussão sobre os resultados obtidos, abordando as implicações para estratégias de comércio. Eu propus potenciais melhorias e direções futuras para aprimorar a modelagem, e dar sequencia a esta análise em projetos seguintes.
-
 
 
 ## Enfoque em Estatística e Técnicas de Decomposição  
@@ -51,7 +54,6 @@ Finalizamos com uma discussão sobre os resultados obtidos, abordando as implica
 Este projeto enfatiza a aplicação de técnicas estatísticas rigorosas para decompor e entender as séries temporais. A decomposição é uma etapa chave, pois permite identificar e separar os diferentes componentes (sazonalidade, tendência, etc.) dos dados de comércio. Essa abordagem aprofundada prepara o terreno para a implementação efetiva do modelo SARIMA, garantindo que nossas previsões sejam tão precisas quanto possível.  
 
 O uso do modelo SARIMA, em particular, destaca nossa habilidade em aplicar métodos estatísticos sofisticados para prever tendências futuras no volume de comércio. Através deste projeto, foi demonstrado como a análise estatística detalhada pode ser aplicada para gerar insights valiosos e informar decisões estratégicas no comércio.  
-
 
 
 ## Estrutura do repositório
