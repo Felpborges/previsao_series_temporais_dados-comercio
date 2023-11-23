@@ -49,11 +49,15 @@ Foi apresentado as previsões do modelo de forma visual, colocando-as ao lado do
 Finalizamos com uma discussão sobre os resultados obtidos, abordando as implicações para estratégias de comércio. Eu propus potenciais melhorias e direções futuras para aprimorar a modelagem, e dar sequencia a esta análise em projetos seguintes.
 
 
-## Enfoque em Estatística e Técnicas de Decomposição  
+## Enfoque em Estatística, Técnicas de Decomposição, Variáveis Exógenas e Validação com Walk Forward
 
 Este projeto enfatiza a aplicação de técnicas estatísticas rigorosas para decompor e entender as séries temporais. A decomposição é uma etapa chave, pois permite identificar e separar os diferentes componentes (sazonalidade, tendência, etc.) dos dados de comércio. Essa abordagem aprofundada prepara o terreno para a implementação efetiva do modelo SARIMA, garantindo que nossas previsões sejam tão precisas quanto possível.  
 
 O uso do modelo SARIMA, em particular, destaca nossa habilidade em aplicar métodos estatísticos sofisticados para prever tendências futuras no volume de comércio. Através deste projeto, foi demonstrado como a análise estatística detalhada pode ser aplicada para gerar insights valiosos e informar decisões estratégicas no comércio.  
+
+Além disso, incorporei variáveis exógenas para refinar nossas previsões SARIMA, contabilizando influências externas que podem afetar o volume de comércio, como eventos específicos, no caso COVID-19 . Essa integração permite que o modelo ajuste suas previsões com base em informações que não são capturadas apenas pela história da série temporal.
+
+Finalmente, validei nosso modelo usando a técnica de walk forward, que nos permite simular o uso do modelo em tempo real. Essa técnica envolve a atualização contínua do modelo com novos dados conforme se tornam disponíveis, garantindo que cada previsão seja baseada no conjunto de informações mais atual. Isso não apenas aumenta a precisão das previsões, mas também confirma a robustez do modelo em condições dinâmicas do mercado, refletindo assim sua aplicabilidade no mundo real.
 
 
 ## Estrutura do repositório
