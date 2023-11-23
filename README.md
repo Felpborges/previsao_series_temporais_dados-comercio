@@ -27,25 +27,25 @@ Além de fornecer insights sobre o Volume de vendas no comércio varejista, este
 
 Neste projeto, explorei profundamente os dados de comércio, aplicando uma combinação de análise exploratória e modelagem estatística para prever tendências futuras. A estrutura do projeto é metodicamente organizada nas seguintes fases:
 
-### Importação de Dados
+### 1- Importação de Dados
 Iniciei com a importação de dados de comércio de um arquivo `.xlsx`, utilizando o pandas para estruturar os dados em um formato apropriado para análise.
 
-### Análise Exploratória de Dados (EDA)
+### 2- Análise Exploratória de Dados (EDA)
 Conduzi uma EDA abrangente para investigar as características fundamentais dos dados. Esta etapa inclui a visualização da série temporal e a realização de análises estatísticas descritivas.
 
-### Pré-processamento de Dados
+### 3- Pré-processamento de Dados
 Nesta fase, preparei os dados para a modelagem. Garanti que as séries temporais estejam em um formato adequado para análise subsequente.
 
-### Construção do Modelo SARIMA
+### 4- Construção do Modelo SARIMA
 Aqui, selecionei os parâmetros ideais para o modelo SARIMA. Esta escolha é baseada em critérios estatísticos rigorosos, juntamente com diagnósticos de ajuste do modelo, assegurando a adequação do modelo aos dados.
 
-### Avaliação do Modelo
-Foi avaliado o desempenho do modelo SARIMA utilizando métricas relevantes. Esta etapa é crucial para validar a precisão das previsões em comparação com os dados reais.
+### 5- Avaliação do Modelo
+Foi avaliado o desempenho do modelo SARIMA utilizando métricas relevantes. Esta etapa é crucial para validar a precisão das previsões em comparação com os dados reais. Inclusibe rodando testes através do Walk Forward, foi visto que o modelo não conseguia convergir para um valor ótimo de MLE, então decidi testar o modelo com uma variável exógena para os valores mais afetados pelo COVID-19.
 
-### Visualização das Previsões  
+### 6- Visualização das Previsões  
 Foi apresentado as previsões do modelo de forma visual, colocando-as ao lado dos dados históricos. Isso oferece uma perspectiva intuitiva e clara do desempenho do modelo.
 
-### Conclusões   
+### 7- Conclusões   
 Finalizamos com uma discussão sobre os resultados obtidos, abordando as implicações para estratégias de comércio. Eu propus potenciais melhorias e direções futuras para aprimorar a modelagem, e dar sequencia a esta análise em projetos seguintes.
 
 
